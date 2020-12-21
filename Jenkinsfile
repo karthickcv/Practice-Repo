@@ -5,14 +5,14 @@ agent any
         timestamps()
         overrideIndexTriggers(true)
       }
- 
+
   stages {
         
           stage('Build'){      
     
 	     steps {
 
- 		echo "Hello World v3 !!!"
+ 		echo "Hello World v5 !!!"
  
      	       }
            }
