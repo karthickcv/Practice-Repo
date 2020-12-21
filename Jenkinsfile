@@ -3,7 +3,7 @@ pipeline {
 agent any
    options {
         timestamps()
-       //overrideIndexTriggers(true)
+        overrideIndexTriggers(false)
        }
  
   stages {
@@ -12,7 +12,7 @@ agent any
     
  	     steps {
 
- 		echo "Hello World !!!"
+ 		echo "Hello World v1 !!!"
  
      	       }
            }
