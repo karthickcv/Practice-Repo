@@ -17,7 +17,7 @@ def call(String command)
           pipeline {
               agent any
               stages {
-                  stage('Build') {
+                  stage('Deploy') {
                       steps {
                           echo "Deploy Pipeline is Executed !!!"
                       }
