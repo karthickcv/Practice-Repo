@@ -1,6 +1,6 @@
 def call(String command)
  
-  if(command == "build")
+  if (command == "build")
   {
       pipeline {
           agent any
@@ -12,6 +12,7 @@ def call(String command)
               }
           }
       }
+  }
       else if(command == "deploy")
       {
           pipeline {
@@ -39,4 +40,4 @@ def call(String command)
               }
           }
       }
-  }
+  
