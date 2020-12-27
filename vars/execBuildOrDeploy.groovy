@@ -1,5 +1,5 @@
 def call(String command)
- 
+ {
   if (command == "build")
   {
       pipeline {
@@ -40,4 +40,4 @@ def call(String command)
               }
           }
       }
-  
+ }
