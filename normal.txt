@@ -1,2 +1,1 @@
-
-some text 100
+some text 50
